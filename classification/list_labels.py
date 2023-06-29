@@ -1,12 +1,7 @@
 # Import any libraries here
 import csv
 
-# I've set up the skeleton for this script, but you'll need to fill in / replace any TODO line with real code.
-# You may also have to import a library for the CSV reader - put that up top.
-
-#-------------------------------------------------------
-
-# Create an empty list. This list will hold all of the labels we find in the label file.
+# hold all of the labels we find in the label file.
 labels = [] # done
 
 # Open the `fairface_original/fairface_label_train.csv` file (in read mode)
