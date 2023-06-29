@@ -22,3 +22,5 @@ Change directories into jetson-inference/python/training/classification
 Run the training script with python3 train.py --model-dir=models/fairface_clean data/fairface_clean
 
 After having finished needed training, change directories into jetson-
+
+imagenet.py --model=$NET/fairface_model.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/black/320.jpg 320.jpg
