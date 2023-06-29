@@ -1,0 +1,7 @@
+east_asian
+indian
+black
+white
+middle_eastern
+latino_hispanic
+southeast_asian
