@@ -26,3 +26,7 @@ After having finished needed training, change directories into jetson-inference/
 To classify the image, modify the example code below by editing it to match your specific image. (Changable parts would be "black" and "326.jpg").
 
 Example for running: imagenet.py --model=models/fairface_clean/fairface_model.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/fairface_clean/labels.txt data/fairface_clean/test/black/326.jpg 326.jpg
+
+
+video here:
+https://youtu.be/GYsUSVvbR68
